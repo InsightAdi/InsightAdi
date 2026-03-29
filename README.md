@@ -22,7 +22,7 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 - 🎯 Targeting roles in **Data Analytics, Business Intelligence, and AI/ML Engineering**
 - 📊 Experienced with end-to-end analytics workflows — from raw SQL to Power BI dashboards
 - 🤖 Hands-on with NLP, machine learning models, and OpenAI API integrations
-- ⚽ Football KBC game builder — because I build things for fun too
+- ⚽ GoalIQ Millionaire game builder — because I build things for fun too
 
 ---
 
@@ -102,10 +102,10 @@ Scrapes financial news headlines, runs sentiment analysis using VADER and TextBl
 
 ---
 -->
-### 🎮 [Football KBC — Kaun Banega Crorepati](https://github.com/InsightAdi/Football-KBC-game)
+### 🎮 [GoalIQ Millionaire](https://github.com/InsightAdi/Football-KBC-game)
 > **Python · HTML · CSS · JavaScript · Web Audio API**
 
-Full-stack quiz game built from scratch with a Python terminal version and a web version playable in the browser. Features 90 football questions, 3 lifelines, prize ladder, 30-second timer, drum roll sound effects, and a leaderboard.
+Full-stack quiz game built from scratch with a Python terminal version and a web version playable in the browser. Features 15 football questions, 3 lifelines, prize ladder, 30-second timer, drum roll sound effects, and a leaderboard.
 
 - 🌐 Deployed live via GitHub Pages
 - 🥁 Drum roll audio via Web Audio API — zero external files
