@@ -57,6 +57,7 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 
 ## 🚀 Featured Projects
 
+<!--
 ### 🏪 [Retail Sales Intelligence Dashboard](https://github.com/InsightAdi/retail-sales-dashboard)
 > **Python · SQL · Power BI · Pandas · PostgreSQL**
 
@@ -100,7 +101,7 @@ Scrapes financial news headlines, runs sentiment analysis using VADER and TextBl
 - 📋 Automated weekly report generation
 
 ---
-
+-->
 ### 🎮 [Football KBC — Kaun Banega Crorepati](https://github.com/InsightAdi/Football-KBC-game)
 > **Python · HTML · CSS · JavaScript · Web Audio API**
 
