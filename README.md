@@ -111,7 +111,7 @@ Full-stack quiz game built from scratch with a Python terminal version and a web
 - 🧪 30 unit tests across all modules
 - 🎲 90-question bank with random selection — no two games the same
 
-**[▶ Play Live](https://InsightAdi.github.io/Football-KBC-game/)**
+**[▶ Play Live](https://insightadi.github.io/Football-KBC-game/)**
 
 ---
 
