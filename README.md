@@ -111,7 +111,7 @@ Full-stack quiz game built from scratch with a Python terminal version and a web
 - 🧪 30 unit tests across all modules
 - 🎲 90-question bank with random selection — no two games the same
 
-**[▶ Play Live](https://insightadi.github.io/Football-KBC-game/)**
+**[▶ Play Live](https://InsightAdi.github.io/Football-KBC-game/)**
 
 ---
 
@@ -148,13 +148,11 @@ Built a Python-based AI chatbot using NLP and OpenAI GPT. Integrated Twilio, 360
 
 <div align="center">
 
-![Aditya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=InsightAdi&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00e676&icon_color=00e676&text_color=c9d1d9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=InsightAdi&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00e676&text_color=c9d1d9)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=InsightAdi&theme=dark&hide_border=true&background=0d1117&ring=00e676&fire=00e676&currStreakLabel=00e676)
 
 </div>
+
+> 🚧 More projects shipping regularly — watch this space!
 
 ---
 
