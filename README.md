@@ -103,16 +103,18 @@ Scrapes financial news headlines, runs sentiment analysis using VADER and TextBl
 ---
 -->
 ### 🎮 [GoalIQ Millionaire](https://github.com/InsightAdi/Football-KBC-game)
-> **Python · HTML · CSS · JavaScript · Web Audio API**
+> **Python · HTML · CSS · JavaScript · Web Audio API · Supabase**
 
-Full-stack quiz game built from scratch with a Python terminal version and a web version playable in the browser. Features 15 football questions, 3 lifelines, prize ladder, 30-second timer, drum roll sound effects, and a leaderboard.
+Full-stack football quiz game built from scratch. Features 90 questions,
+animated lifelines, 30-second timer, drum roll sounds, and a **global
+leaderboard powered by Supabase** — anyone in the world can play and
+compete on the same leaderboard.
 
-- 🌐 Deployed live via GitHub Pages
-- 🥁 Drum roll audio via Web Audio API — zero external files
+- 🌐 Live on Vercel — shareable link, no install needed
+- 🥁 Drum roll audio via Web Audio API
+- 🗄️ Global leaderboard via Supabase PostgreSQL
 - 🧪 30 unit tests across all modules
-- 🎲 90-question bank with random selection — no two games the same
-
-**[▶ Play Live](https://InsightAdi.github.io/Football-KBC-game/)**
+- 🎲 90-question bank — no two games the same
 
 ---
 
