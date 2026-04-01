@@ -90,7 +90,7 @@ ML pipeline that detects anomalies in supply chain data — flagging delayed shi
 - 🌐 Streamlit dashboard for business user consumption
 
 ---
--->
+
 ### 📰 [News Sentiment & Stock Signal Analyzer](https://github.com/InsightAdi/news-sentiment-stock)
 > **Python · NLP · VADER · yfinance · Matplotlib**
 
@@ -101,7 +101,7 @@ Scrapes financial news headlines, runs sentiment analysis using VADER and TextBl
 - 📋 Automated weekly report generation
 
 ---
-
+-->
 ### 🎮 [GoalIQ Millionaire](https://github.com/InsightAdi/Football-KBC-game)
 > **Python · HTML · CSS · JavaScript · Web Audio API · Supabase**
 
