@@ -57,7 +57,7 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 
 ## 🚀 Featured Projects
 
-
+<!--
 ### 🏪 [Retail Sales Intelligence Dashboard](https://github.com/InsightAdi/retail-sales-dashboard)
 > **Python · SQL · Power BI · Pandas · PostgreSQL**
 
