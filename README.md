@@ -103,7 +103,7 @@ Raw CSVs (9 tables) → Google BigQuery → Python EDA → Random Forest Model �
 - Applied **SNAPSHOT_DATE** pattern for recency calculation to prevent target leakage in churn labelling
 
 [![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InsightAdi/shopsmart-analytics)
-[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white)](YOUR_LOOKER_STUDIO_LINK_HERE)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://datastudio.google.com/reporting/1250273e-b81b-426c-9d2f-d12efacc5f41)
 
 ---
 
@@ -124,7 +124,7 @@ Full-stack football quiz game built from scratch. Features 90 questions, animate
 
 ## 💼 Work Experience
 
-**Data Executive — DB Schenker** *(Sep 2024 – Sep 2025)*
+**Data Analyst — DB Schenker** *(Sep 2024 – Sep 2025)*
 Built Power BI and Excel dashboards to monitor logistics KPIs. Analysed supply chain and order flow data to identify operational bottlenecks. Automated weekly reporting via Excel Power Query, significantly reducing manual effort.
 
 **Supply Chain Analyst — Neotangent** *(Apr 2024 – Aug 2024)*
