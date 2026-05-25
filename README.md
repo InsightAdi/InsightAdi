@@ -18,10 +18,11 @@
 
 I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a B.Tech in AI/ML from The NorthCap University. I bridge the gap between business operations and data-driven intelligence — having worked across supply chain analytics, logistics KPIs, and AI-powered automation.
 
-- 🔭 Currently building projects at the intersection of **Python, ML, and real-world data**
+- 🔭 Currently building production-grade projects at the intersection of **Python, ML, and real-world data**
 - 🎯 Targeting roles in **Data Analytics, Business Intelligence, and AI/ML Engineering**
-- 📊 Experienced with end-to-end analytics workflows — from raw SQL to Power BI dashboards
+- 📊 Experienced with end-to-end analytics workflows — from raw SQL to BI dashboards
 - 🤖 Hands-on with NLP, machine learning models, and OpenAI API integrations
+- ☁️ Working with **Google BigQuery** for large-scale analytical data pipelines
 - ⚽ GoalIQ Millionaire game builder — because I build things for fun too
 
 ---
@@ -32,6 +33,7 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ### Data & ML
@@ -42,12 +44,14 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 ![NLTK](https://img.shields.io/badge/NLTK-3DDC84?style=flat-square&logo=python&logoColor=white)
 
 ### BI & Visualization
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square&logo=googleanalytics&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### Frameworks & Cloud
+### Cloud & Frameworks
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
@@ -57,64 +61,64 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 
 ## 🚀 Featured Projects
 
-<!--
-### 🏪 [Retail Sales Intelligence Dashboard](https://github.com/InsightAdi/retail-sales-dashboard)
-> **Python · SQL · Power BI · Pandas · PostgreSQL**
+---
 
-End-to-end analytics pipeline that ingests raw retail transaction data, cleans and transforms it using Python/Pandas, stores it in PostgreSQL, and delivers an interactive Power BI dashboard tracking sales trends, product performance, and customer segmentation.
+### 📊 [Business Intelligence & Customer Behavior Analytics System](https://github.com/InsightAdi/shopsmart-analytics)
+> **Python · Google BigQuery · SQL · Scikit-learn · Looker Studio · Google Cloud**
 
-- 📈 Automated ETL pipeline processing 100K+ records
-- 📊 RFM customer scoring and cohort analysis using SQL
-- 🔍 Dashboard tracks revenue, churn signals, and inventory KPIs
+An end-to-end, production-grade analytics pipeline built on real e-commerce data (Olist — 99K+ orders). Covers the full data lifecycle: raw CSV ingestion → BigQuery data warehouse → advanced SQL analytics → Python EDA → ML churn prediction → live BI dashboard.
+
+**Architecture**
+```
+Raw CSVs (9 tables) → Google BigQuery → Python EDA → Random Forest Model → Looker Studio Dashboard
+```
+
+**What was built**
+- 🗄️ **Data Pipeline** — Ingested 8 relational tables (99K+ orders) into Google BigQuery using Python + SQLAlchemy. Designed schema with proper foreign key relationships mirroring production e-commerce databases
+- 🔍 **Advanced SQL Analytics** — 5 production-grade queries: RFM scoring, cohort retention analysis, customer segmentation, MoM revenue trends with window functions, funnel conversion analysis
+- 🧹 **Python EDA** — Full data cleaning pipeline using Pandas: null handling, outlier removal, payment aggregation across installments, datetime feature engineering. Generated 6 business insight visualisations
+- 🤖 **Churn Prediction Model** — Random Forest Classifier with `class_weight='balanced'` to handle imbalanced classes. Deployed as a sklearn Pipeline (imputer → scaler → model) to prevent data leakage. Evaluated on ROC-AUC, Precision, Recall, F1
+- 📈 **Live BI Dashboard** — 4-page Looker Studio dashboard connected live to BigQuery: Executive Summary, Customer Segmentation, Churn Analysis, Revenue Trends
+
+**Key Results**
+| Metric | Value |
+|--------|-------|
+| Churn Rate | 66.6% |
+| Model Accuracy | 75.9% |
+| Critical Risk Customers | 49,064 |
+| Avg Review — On-Time Delivery | 4.29 ⭐ |
+| Avg Review — Late Delivery | 2.57 ⭐ |
+| Credit Card Revenue Share | 78.3% |
+
+**Key Business Insights**
+- 📉 52.5% of customers fall in the Critical Risk tier — immediate retention campaigns recommended
+- 🚚 Late deliveries drop average review score from **4.29 → 2.57** — a 40% satisfaction decline, directly quantifying the cost of logistics failures
+- 👑 Champions segment (repeat buyers, high spend) drives disproportionate revenue despite being only ~2% of the customer base
+- 📅 Revenue peaked in November 2017 — seasonal trend confirmed via cohort analysis
+
+**Tech decisions worth noting**
+- Chose **Google BigQuery** over PostgreSQL for columnar storage optimised for analytical queries at scale
+- Used **Session Pooler** connection to handle network-level port restrictions — production-relevant networking knowledge
+- Used **sklearn Pipeline** for the ML model to ensure zero data leakage between train/test splits
+- Applied **SNAPSHOT_DATE** pattern for recency calculation to prevent target leakage in churn labelling
+
+[![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InsightAdi/shopsmart-analytics)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white)](YOUR_LOOKER_STUDIO_LINK_HERE)
 
 ---
 
-### 🤖 [AI Customer Support Agent](https://github.com/InsightAdi/ai-support-agent)
-> **Python · OpenAI API · Flask · NLP · SQLite**
-
-Intelligent support chatbot that classifies incoming queries using NLP, routes them to the correct department, and generates context-aware responses using the OpenAI API. Includes a Flask admin dashboard to monitor query volume and resolution rates.
-
-- 🧠 Intent classification with fine-tuned BERT model
-- 📊 Admin dashboard with real-time query analytics
-- 🔗 REST API ready for integration with any frontend
-
----
-
-### 📦 [Supply Chain Anomaly Detector](https://github.com/InsightAdi/supply-chain-anomaly-detector)
-> **Python · Scikit-Learn · Pandas · Streamlit**
-
-ML pipeline that detects anomalies in supply chain data — flagging delayed shipments, inventory spikes, and supplier performance drops before they escalate. Deployed as an interactive Streamlit web app for non-technical stakeholders.
-
-- 🚨 Isolation Forest model for real-time anomaly detection
-- 📉 Surfaces hidden patterns across shipment and inventory data
-- 🌐 Streamlit dashboard for business user consumption
-
----
-
-### 📰 [News Sentiment & Stock Signal Analyzer](https://github.com/InsightAdi/news-sentiment-stock)
-> **Python · NLP · VADER · yfinance · Matplotlib**
-
-Scrapes financial news headlines, runs sentiment analysis using VADER and TextBlob, and correlates sentiment scores with stock price movements to generate buy/sell signals — visualized with interactive charts.
-
-- 📡 Live news via NewsAPI + stock data via yfinance
-- 📊 Sentiment-price correlation across 20+ stocks
-- 📋 Automated weekly report generation
-
----
--->
 ### 🎮 [GoalIQ Millionaire](https://github.com/InsightAdi/Football-KBC-game)
 > **Python · HTML · CSS · JavaScript · Web Audio API · Supabase**
 
-Full-stack football quiz game built from scratch. Features 90 questions,
-animated lifelines, 30-second timer, drum roll sounds, and a **global
-leaderboard powered by Supabase** — anyone in the world can play and
-compete on the same leaderboard.
+Full-stack football quiz game built from scratch. Features 90 questions, animated lifelines, 30-second timer, drum roll sounds, and a **global leaderboard powered by Supabase** — anyone in the world can play and compete on the same leaderboard.
 
 - 🌐 Live on Vercel — shareable link, no install needed
 - 🥁 Drum roll audio via Web Audio API
 - 🗄️ Global leaderboard via Supabase PostgreSQL
 - 🧪 30 unit tests across all modules
 - 🎲 90-question bank — no two games the same
+
+[![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InsightAdi/Football-KBC-game)
 
 ---
 
@@ -164,6 +168,7 @@ Built a Python-based AI chatbot using NLP and OpenAI GPT. Integrated Twilio, 360
 - 🤖 Participated in **National Robotics Competition** under VIGYANTRAM at **IIT Bombay**
 - 🎓 B.Tech in AI/ML with consistent academic performance
 - 📊 Delivered production-grade analytics dashboards in a live enterprise environment at DB Schenker
+- ☁️ Built end-to-end analytics pipeline on **Google BigQuery** — industry standard for large-scale data analytics
 
 ---
 
