@@ -23,7 +23,6 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 - 📊 Experienced with end-to-end analytics workflows — from raw SQL to BI dashboards
 - 🤖 Hands-on with NLP, machine learning models, and OpenAI API integrations
 - ☁️ Working with **Google BigQuery** for large-scale analytical data pipelines
-- ⚽ GoalIQ Millionaire game builder — because I build things for fun too
 
 ---
 
