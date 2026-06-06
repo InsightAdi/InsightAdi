@@ -61,7 +61,7 @@ I'm a **Data Analytics & AI/ML professional** based in Faridabad, India, with a 
 Production RAG application — upload any PDF and have an intelligent conversation with it. Grounded answers, no hallucinations, deployed live.
 
 [![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InsightAdi/rag-qa-app)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-app-url.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://rag-app-app.streamlit.app/)
 
 ---
 
