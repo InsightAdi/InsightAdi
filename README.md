@@ -80,27 +80,6 @@ Raw CSVs (9 tables) → Google BigQuery → Python EDA → Random Forest Model �
 - 🤖 **Churn Prediction Model** — Random Forest Classifier with `class_weight='balanced'` to handle imbalanced classes. Deployed as a sklearn Pipeline (imputer → scaler → model) to prevent data leakage. Evaluated on ROC-AUC, Precision, Recall, F1
 - 📈 **Live BI Dashboard** — 4-page Looker Studio dashboard connected live to BigQuery: Executive Summary, Customer Segmentation, Churn Analysis, Revenue Trends
 
-**Key Results**
-| Metric | Value |
-|--------|-------|
-| Churn Rate | 66.6% |
-| Model Accuracy | 75.9% |
-| Critical Risk Customers | 49,064 |
-| Avg Review — On-Time Delivery | 4.29 ⭐ |
-| Avg Review — Late Delivery | 2.57 ⭐ |
-| Credit Card Revenue Share | 78.3% |
-
-**Key Business Insights**
-- 📉 52.5% of customers fall in the Critical Risk tier — immediate retention campaigns recommended
-- 🚚 Late deliveries drop average review score from **4.29 → 2.57** — a 40% satisfaction decline, directly quantifying the cost of logistics failures
-- 👑 Champions segment (repeat buyers, high spend) drives disproportionate revenue despite being only ~2% of the customer base
-- 📅 Revenue peaked in November 2017 — seasonal trend confirmed via cohort analysis
-
-**Tech decisions worth noting**
-- Chose **Google BigQuery** over PostgreSQL for columnar storage optimised for analytical queries at scale
-- Used **Session Pooler** connection to handle network-level port restrictions — production-relevant networking knowledge
-- Used **sklearn Pipeline** for the ML model to ensure zero data leakage between train/test splits
-- Applied **SNAPSHOT_DATE** pattern for recency calculation to prevent target leakage in churn labelling
 
 [![View Project](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InsightAdi/shopsmart-analytics)
 [![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://datastudio.google.com/reporting/1250273e-b81b-426c-9d2f-d12efacc5f41)
