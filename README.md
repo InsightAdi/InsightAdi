@@ -4,7 +4,7 @@
 
 ### Data Analytics · AI/ML · Python · Business Intelligence
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-yadav-a757131ba)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-y-a757131ba/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adityaydv1203@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InsightAdi)
 
@@ -121,7 +121,7 @@ Built an NLP chatbot with OpenAI GPT, integrated Twilio and Meta APIs, deployed 
 
 ### 💬 Open to AI/ML Engineering, Data Analytics & Business Intelligence roles
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-yadav-a757131ba)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-y-a757131ba/)
 [![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adityaydv1203@gmail.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=InsightAdi&color=00e676&style=flat-square)
